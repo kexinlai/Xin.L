@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+  background-color: rgb(168, 240, 246);
+}
+
+
+h1, h2{
+    color: rgb(25, 29, 255);
+    
+}
+
+h1{
+  padding-left:0;
+}
+
+ul li{
+  
+    list-style:none;
+    padding: 0;
+    line-height: 30px;
+  }
+
+  ul li a{
+    background-color: rgb(190, 140, 237);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: blue;
+  }
+
+  ul li a:hover{
+    background-color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(0, 241, 241);
+  }
